@@ -25,16 +25,16 @@ module.exports = () => {
       new MiniCssExtractPlugin(),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }),
 
       // Creates a manifest.json file.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        name: 'just another text editor',
+        short_name: 'jate',
+        description: 'just another text editor!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
