@@ -14,11 +14,21 @@ const initdb = async () =>
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
-  console.log('PUT to the database');
+  console.log('POST to the database');
+
+  //thishelps in creating the connection to the database and 1 denotes the version we wants to use
   const textDb = await openDB('jate', 1);
+
+  //a new transaction is created 
   const tx = textDb.transaction('jate', 'readwrite');
+
+  //opens up the objectstore
   const store = tx.objectStore('jate');
+
+
   const request = store.put({ id: 1, value: content });
+
+  //obtain confirmation of the request
   const result = await request;
   console.log('🚀 - data saved to the database', result);
 };
