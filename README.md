@@ -21,7 +21,7 @@ Installable from most browsers. The app will be a single-page application that m
 ![alt text](https://github.com/AryaKris/PWA-Text-Editor/blob/main/assets/Screen%20Shot%202022-03-27%20at%2017.25.00.png)
 
 * The following image shows the application's IndexedDB storage:
-![alt text]()
+![alt text](https://github.com/AryaKris/PWA-Text-Editor/blob/main/assets/Screen%20Shot%202022-03-27%20at%2017.42.27.png)
 
 ## License
 This application is covered under the MIT license.
