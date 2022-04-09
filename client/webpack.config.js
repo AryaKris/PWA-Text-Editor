@@ -22,9 +22,10 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'jate',
+        title: 'J.A.T.E',
       }),
       new MiniCssExtractPlugin(),
+      
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
