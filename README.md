@@ -17,6 +17,9 @@ npm i
 ## Usage
 Installable from most browsers. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
+## Link to the deployed application 
+https://pwa-text-edits.herokuapp.com/
+
 ## Image 
 ![alt text](https://github.com/AryaKris/PWA-Text-Editor/blob/main/assets/Screen%20Shot%202022-03-27%20at%2017.25.00.png)
 
